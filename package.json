@@ -1,0 +1,50 @@
+{
+  "name": "strings-parser-date",
+  "description": "Parser for strings to handle date parsing.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/assemble/strings-parser-date",
+  "author": {
+    "name": "Brian Woodward",
+    "url": "https://github.com/doowb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/assemble/strings-parser-date.git"
+  },
+  "bugs": {
+    "url": "https://github.com/assemble/strings-parser-date/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/assemble/strings-parser-date/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "docs",
+    "documentation",
+    "generate",
+    "generator",
+    "markdown",
+    "templates",
+    "verb"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "verb": "~0.2.0",
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2",
+    "strings": "git://github.com/assemble/strings#v0.3.0",
+    "strings-parser-path": "^0.1.2"
+  },
+  "dependencies": {
+    "moment": "^2.6.0",
+    "lodash": "^2.4.1"
+  }
+}
