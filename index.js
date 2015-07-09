@@ -74,7 +74,7 @@ function makeParsers(dates) {
 module.exports = function (options) {
   options = options || {};
   options.lang = options.lang || 'en';
-  moment.lang(options.lang);
+  moment.locale(options.lang);
 
   return makeParsers(dateMappings, options);
 };
